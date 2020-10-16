@@ -43,33 +43,64 @@ def make_priced_table(ipo_data) -> list:
         if word == 'Priced':
             # begin priced section
             j = i
-            while not 'Upcoming' in ipo_data[j] and ipo_data[j+1] != 'Upcoming':
+            while ipo_data[j] != 'Upcoming':
                 priced_row = {}
-                if ipo_data[j] != 'Upcoming':
-                    j += 1
-                    priced_row['Symbol'] = ipo_data[j]
-                if ipo_data[j] != 'Upcoming' and ipo_data[j+1] != 'Upcoming':
-                    j += 2
-                    priced_row['Company Name'] = ipo_data[j]
-                if ipo_data[j] != 'Upcoming' and ipo_data[j+1] != 'Upcoming':
-                    j += 2
-                    priced_row['Exchange/Market'] = ipo_data[j]
-                if ipo_data[j] != 'Upcoming' and ipo_data[j+1] != 'Upcoming':
-                    j += 2
-                    priced_row['Price'] = ipo_data[j]
-                if ipo_data[j] != 'Upcoming' and ipo_data[j+1] != 'Upcoming':
-                    j += 2
-                    priced_row['Shares'] = ipo_data[j]
-                if ipo_data[j] != 'Upcoming' and ipo_data[j+1] != 'Upcoming':
-                    j += 2
-                    priced_row['Date'] = ipo_data[j]
-                if ipo_data[j] != 'Upcoming' and ipo_data[j+1] != 'Upcoming':
-                    j += 2
-                    priced_row['Offer Amount'] = ipo_data[j]
-                j += 2
+                if ipo_data[j] == 'Upcoming':
+                    break
+                j += 1
+                priced_row['Symbol'] = ipo_data[j]
+                if ipo_data[j] == 'Upcoming':
+                    break
+                j += 1
+                if ipo_data[j] == 'Upcoming':
+                    break
+
+                j += 1
+                priced_row['Company Name'] = ipo_data[j]
+                if ipo_data[j] == 'Upcoming':
+                    break
+                j += 1
+                if ipo_data[j] == 'Upcoming':
+                    break
+                j += 1
+                priced_row['Exchange/Market'] = ipo_data[j]
+                if ipo_data[j] == 'Upcoming':
+                    break
+                j += 1
+                if ipo_data[j] == 'Upcoming':
+                    break
+                j += 1
+                priced_row['Price'] = ipo_data[j]
+                if ipo_data[j] == 'Upcoming':
+                    break
+                j += 1
+                if ipo_data[j] == 'Upcoming':
+                    break
+                j += 1
+                priced_row['Shares'] = ipo_data[j]
+                if ipo_data[j] == 'Upcoming':
+                    break
+                j += 1
+                if ipo_data[j] == 'Upcoming':
+                    break
+                j += 1
+                priced_row['Date'] = ipo_data[j]
+                if ipo_data[j] == 'Upcoming':
+                    break
+                j += 1
+                if ipo_data[j] == 'Upcoming':
+                    break
+                j += 1
+                priced_row['Offer Amount'] = ipo_data[j]
+                if ipo_data[j] == 'Upcoming':
+                    break
+                j += 1
+                if ipo_data[j] == 'Upcoming':
+                    break
+                j += 1
+
                 priced_table.append(priced_row)
-                print('yo')
-                print(len(priced_table))
+                # if 'Upcoming' in ipo_data[j] or ipo_data[j+1] == 'Upcoming'
 
     return priced_table
 
@@ -123,11 +154,11 @@ def make_filings_table(ipo_data) -> list:
 
 
 def transform_string(ipo_data=str) -> str:
-    #ipo_data = re.sub(r"[\n]*", "", ipo_data)
+    # ipo_data = re.sub(r"[\n]*", "", ipo_data)
     # ipo_data = ipo_data.split([sep=None[, maxsplit]])
     ipo_data = ipo_data.split('\n')  # split by all whitespace
 
-    #print(ipo_data)
+    print(ipo_data)
 
     # these tables are lists of dicts
     priced_table = make_priced_table(ipo_data)

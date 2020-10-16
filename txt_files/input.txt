@@ -44,6 +44,7 @@ Nasdaq Logo
     Nasdaq Data
         Statistical Milestones
         Total Returns
+        Daily Market Statistics
 
 See All Market Activity
 News + Insights
@@ -142,19 +143,34 @@ IPO Calendar
 Find a symbol
  
 Priced
-IH
+CDAK
 	
-iHuman Inc.
+Codiak BioSciences, Inc.
 	
-NYSE
+NASDAQ Global
 	
-12.00
+15.00
 	
-7,000,000
+5,500,000
 	
-10/09/2020
+10/14/2020
 	
-$84,000,000
+$82,500,000
+	
+Priced
+FVAM
+	
+5:01 Acquisition Corp.
+	
+NASDAQ Capital
+	
+10.00
+	
+8,000,000
+	
+10/14/2020
+	
+$80,000,000
 	
 Priced
 IPODU
@@ -232,11 +248,26 @@ NASDAQ Capital
 $500,000,000
 	
 Priced
+IH
+	
+iHuman Inc.
+	
+NYSE
+	
+12.00
+	
+7,000,000
+	
+10/09/2020
+	
+$84,000,000
+	
+Priced
 SPRB
 	
 SPRUCE BIOSCIENCES, INC.
 	
-NASDAQ Global
+NASDAQ Global Select
 	
 15.00
 	
@@ -322,19 +353,19 @@ NYSE
 $250,000,000
 	
 Priced
-SQFT
+PACEU
 	
-Presidio Property Trust, Inc.
+TPG Pace Tech Opportunities Corp.
 	
-NASDAQ Capital
+NYSE
 	
-5.00
+10.00
 	
-500,000
+45,000,000
 	
 10/07/2020
 	
-$2,500,000
+$450,000,000
 	
 Priced
 MAACU
@@ -367,19 +398,19 @@ NASDAQ Capital
 $350,000,000
 	
 Priced
-PACEU
+SQFT
 	
-TPG Pace Tech Opportunities Corp.
+Presidio Property Trust, Inc.
 	
-NYSE
+NASDAQ Capital
 	
-10.00
+5.00
 	
-45,000,000
+500,000
 	
 10/07/2020
 	
-$450,000,000
+$2,500,000
 	
 Priced
 TPGYU
@@ -502,21 +533,6 @@ NYSE
 $225,000,000
 	
 Priced
-IMNM
-	
-Immunome Inc.
-	
-NASDAQ Capital
-	
-12.00
-	
-3,250,000
-	
-10/02/2020
-	
-$39,000,000
-	
-Priced
 VGACU
 	
 VG Acquisition Corp.
@@ -547,21 +563,6 @@ NYSE
 $500,000,000
 	
 Priced
-SEAHU
-	
-Sports Entertainment Acquisition Corp.
-	
-NYSE
-	
-10.00
-	
-40,000,000
-	
-10/02/2020
-	
-$400,000,000
-	
-Priced
 ONCR
 	
 Oncorus, Inc.
@@ -577,19 +578,34 @@ NASDAQ Global
 $87,000,000
 	
 Priced
-AGCUU
+IMNM
 	
-Altimeter Growth Corp.
+Immunome Inc.
 	
 NASDAQ Capital
 	
+12.00
+	
+3,250,000
+	
+10/02/2020
+	
+$39,000,000
+	
+Priced
+SEAHU
+	
+Sports Entertainment Acquisition Corp.
+	
+NYSE
+	
 10.00
 	
-45,000,000
+40,000,000
 	
-10/01/2020
+10/02/2020
 	
-$450,000,000
+$400,000,000
 	
 Priced
 RCHGU
@@ -622,6 +638,21 @@ NYSE
 $400,000,000
 	
 Priced
+THRY
+	
+Thryv Holdings, Inc.
+	
+NASDAQ Capital
+	
+10.17
+	
+26,726,538
+	
+10/01/2020
+	
+$271,808,891
+	
+Priced
 IGACU
 	
 IG Acquisition Corp.
@@ -635,6 +666,21 @@ NASDAQ Capital
 10/01/2020
 	
 $300,000,000
+	
+Priced
+AGCUU
+	
+Altimeter Growth Corp.
+	
+NASDAQ Capital
+	
+10.00
+	
+45,000,000
+	
+10/01/2020
+	
+$450,000,000
 	
 Priced
 LUNG
@@ -683,45 +729,110 @@ $96,000,000
 	
 Priced
 Upcoming
-SPEL
+MCFE
 	
-Spinal Elements Holdings, Inc.
-	
-NASDAQ Global
-	
-13.00-15.00
-	
-7,700,000
-	
-10/15/2020
-	
-$132,825,000.00
-ARRY
-	
-ATI Intermediate Holdings, LLC
-	
-NASDAQ Global
-	
-19.00-21.00
-	
-33,750,000
-	
-10/15/2020
-	
-$815,062,500
-CDAK
-	
-Codiak BioSciences, Inc.
+McAfee Corp.
 	
 NASDAQ Global Select
 	
+19.00-22.00
+	
+30,982,558
+	
+10/22/2020
+	
+$936,100,000.00
+MSP
+	
+DATTO HOLDING CORP.
+	
+NYSE
+	
+24.00-27.00
+	
+22,000,000
+	
+10/21/2020
+	
+$683,100,000
+TMPMU
+	
+TURMERIC ACQUISITION CORP.
+	
+NASDAQ Capital
+	
+10.00
+	
+8,500,000
+	
+10/16/2020
+	
+$97,750,000.00
+TARS
+	
+Tarsus Pharmaceuticals, Inc.
+	
+NASDAQ Global
+	
+15.00-17.00
+	
+5,000,000
+	
+10/16/2020
+	
+$97,750,000
+OPT
+	
+Opthea Ltd
+	
+NASDAQ Global Select
+	
+17.26
+	
+9,300,000
+	
+10/16/2020
+	
+$184,595,700.00
+BHSEU
+	
+Bull Horn Holdings Corp.
+	
+NASDAQ Capital
+	
+10.00
+	
+7,500,000
+	
+10/16/2020
+	
+$86,250,000
+KRBP
+	
+Kiromic Biopharma, Inc.
+	
+NASDAQ Capital
+	
+12.00-14.00
+	
+1,153,847
+	
+10/16/2020
+	
+$18,576,922
+ALGS
+	
+Aligos Therapeutics, Inc.
+	
+NASDAQ Global
+	
 14.00-16.00
 	
-5,500,000
+10,000,000
 	
-10/14/2020
+10/16/2020
 	
-$101,200,000
+$184,000,000.00
 JUPW
 	
 Jupiter Wellness, Inc.
@@ -732,38 +843,38 @@ NASDAQ Capital
 	
 1,000,000
 	
-10/14/2020
+10/16/2020
 	
 $8,625,000
-MACUU
+EAR
 	
-Mallard Acquisition Corp.
+Eargo, Inc.
 	
-NASDAQ Capital
+NASDAQ Global Select
 	
-10.00
+14.00-16.00
 	
-10,000,000
+6,666,667
 	
-10/13/2020
+10/16/2020
 	
-$115,000,000.00
-DCRBU
+$122,666,672
+PRAX
 	
-Decarbonization Plus Acquisition Corp
+Praxis Precision Medicines, Inc.
 	
-NASDAQ Capital
+NASDAQ Global
 	
-10.00
+16.00-18.00
 	
-30,000,000
+7,400,000
 	
-10/09/2020
+10/16/2020
 	
-$345,000,000.00
-OTRAU
+$153,180,000
+TMTSU
 	
-OTR Acquisition Corp.
+Spartacus Acquisition Corp
 	
 NASDAQ Capital
 	
@@ -771,11 +882,119 @@ NASDAQ Capital
 	
 25,000,000
 	
-10/09/2020
+10/15/2020
+	
+$287,500,000
+MOTNU
+	
+Motion Acquisition Corp.
+	
+NASDAQ Capital
+	
+10.00
+	
+13,000,000
+	
+10/15/2020
+	
+$149,500,000.00
+SPEL
+	
+Spinal Elements Holdings, Inc.
+	
+NASDAQ Global Select
+	
+13.00-15.00
+	
+7,700,000
+	
+10/15/2020
+	
+$132,825,000.00
+ARRY
+	
+Array Technologies, Inc.
+	
+NASDAQ Global
+	
+19.00-21.00
+	
+45,000,000
+	
+10/15/2020
+	
+$1,086,750,000
+LAST UPDATED: 10/15/2020* - Source: EDGAR® Online
+Filings
+LSAQ
+	
+Lifesci Acquisition II Corp.
+	
+10/14/2020
+	
+$86,250,000.00
+PTICU
+	
+PROPTECH INVESTMENT CORP. II
+	
+10/14/2020
+	
+$201,250,000.00
+GLSPU
+	
+Global SPAC Partners Co,
+	
+10/13/2020
+	
+$230,000,000.00
+IIACU
+	
+Investindustrial Acquisition Corp.
+	
+10/13/2020
+	
+$402,500,000.00
+NOAC
+	
+Natural Order Acquisition Corp.
+	
+10/13/2020
 	
 $287,500,000.00
-LAST UPDATED: 10/12/2020* - Source: EDGAR® Online
-Filings
+SGAMU
+	
+Seaport Global Acquisition Corp
+	
+10/13/2020
+	
+$143,750,000.00
+KWACU
+	
+Kingswood Global Holdings Inc.
+	
+10/13/2020
+	
+$172,500,000.00
+	
+Spartan Acquisition Corp. II
+	
+10/09/2020
+	
+$460,000,000.00
+LUXAU
+	
+Lux Health Tech Acquisition Corp.
+	
+10/09/2020
+	
+$345,000,000
+SQZ
+	
+SQZ Biotechnologies Co
+	
+10/09/2020
+	
+$75,000,000.00
 VRPX
 	
 Virpax Pharmaceuticals, Inc.
@@ -1001,7 +1220,7 @@ Acies Acquisition Corp.
 $345,000,000
 CTACU
 	
-Orthrus Acquisition Corp.
+Cerberus Telecom Acquisition Corp.
 	
 10/02/2020
 	
@@ -1066,7 +1285,7 @@ BIODESIX INC
 	
 10/02/2020
 	
-$75,000,000
+$75,000,000.00
 HOMS
 	
 Caliber Home Loans, Inc.
@@ -1074,12 +1293,13 @@ Caliber Home Loans, Inc.
 10/02/2020
 	
 $100,000,000
+AHM
 	
 AmeriHome, Inc.
 	
 10/01/2020
 	
-$100,000,000.00
+$100,000,000
 GHLD
 	
 Guild Holdings Co
@@ -1122,55 +1342,67 @@ G Medical Innovations Holdings Ltd.
 10/01/2020
 	
 $40,250,000.00
+Withdrawn
+	
+4DMed, Ltd.
+	
+	
+400,000
+	
+08/06/2020
+	
+$400,000.00
+	
+10/13/2020
 Upcoming Events
 
-    Dividends (206)
-    Earnings (78)
-    Economic (42)
+    Dividends (84)
+    Earnings (232)
+    Economic (74)
     IPO Calendar
     SPO Calendar
-    Stock Splits (15)
+    Stock Splits (13)
 
 Latest News
 
-    Yuan slips after PBOC sets weaker midpoint
-    15 mins ago
-    Walt Disney Reorganizes With a Greater Focus on Streaming Media
-    25 mins ago
-    Williams-Sonoma Raises Dividend by 10%
-    42 mins ago
-    Japanese Market Edges Lower
-    49 mins ago
-    Win Streak May Continue For Indonesia Stock Market
-    51 mins ago
+    Roku Wins $41 Million Patent Infringement Case
+    12 mins ago
+    PRECIOUS-Gold dips as dollar holds firm, set for a weekly decline
+    14 mins ago
+    Australian Market Pares Losses
+    14 mins ago
+    Hong Kong Stock Market May Give Up 24,000-Point Level On Friday
+    19 mins ago
+    Tyson Foods Challenges Beyond Meat, Impossible Foods with Its Unchicken Sandwich
+    20 mins ago
 
 Other Calendars
 Dividends
-206 Events
+84 Events
 Find dividend paying stocks and pay dates.
 
-    Brookfield Real Assets Income Fund Inc.10/13/2020
-    BNY Mellon Alcentra Global Credit Income 2024 Target Term Fund, 10/13/2020
-    Cohen & Steers Closed-End Opportunity Fund, Inc.10/13/2020
+    Angel Oak Dynamic Financial Strategies Income Term Trust10/15/2020
+    Angel Oak Financial Strategies Income Term Trust10/15/2020
+    EMCOR Group, Inc.10/15/2020
 
 Earnings
-78 Events
+232 Events
 Track companies who are expected to release earnings reports.
 
-    OncoSec Medical Incorporated10/12/2020
-    InnSuites Hospitality Trust10/12/2020
-    Timber Pharmaceuticals, Inc.10/12/2020
+    Taiwan Semiconductor Manufacturing Company Ltd.10/15/2020
+    Honeywell International Inc.10/15/2020
+    Intuitive Surgical, Inc.10/15/2020
 
 Economic
-42 Events
+74 Events
 Stay up to date with financial events and indicators from all over the world.
 
-    Investing.com GBP/USD Index01:30
-    Investing.com Gold Index01:30
-    Investing.com S&P 500 Index01:30
+    Tertiary Industry Activity Index00:30
+    PPI02:30
+    PPI02:30
 
 Stock Splits
-15 Events
+13 Events
 Discover which stocks are splitting, the ration, and split ex-date.
 
     Turquoise Hill Resources Ltd.10/26/2020
