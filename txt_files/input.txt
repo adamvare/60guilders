@@ -143,6 +143,81 @@ IPO Calendar
 Find a symbol
  
 Priced
+ARRY
+	
+Array Technologies, Inc.
+	
+NASDAQ Global
+	
+22.00
+	
+47,500,000
+	
+10/15/2020
+	
+$1,045,000,000
+	
+Priced
+EBC
+	
+Eastern Bankshares, Inc.
+	
+NASDAQ Global Select
+	
+10.00
+	
+179,300,000
+	
+10/15/2020
+	
+$1,793,000,000
+	
+Priced
+MNSO
+	
+MINISO Group Holding Ltd
+	
+NYSE
+	
+20.00
+	
+30,400,000
+	
+10/15/2020
+	
+$608,000,000
+	
+Priced
+MOTNU
+	
+Motion Acquisition Corp.
+	
+NASDAQ Capital
+	
+10.00
+	
+11,500,000
+	
+10/15/2020
+	
+$115,000,000
+	
+Priced
+TMTSU
+	
+Spartacus Acquisition Corp
+	
+NASDAQ Capital
+	
+10.00
+	
+20,000,000
+	
+10/15/2020
+	
+$200,000,000
+	
+Priced
 CDAK
 	
 Codiak BioSciences, Inc.
@@ -171,6 +246,21 @@ NASDAQ Capital
 10/14/2020
 	
 $80,000,000
+	
+Priced
+IH
+	
+iHuman Inc.
+	
+NYSE
+	
+12.00
+	
+7,000,000
+	
+10/09/2020
+	
+$84,000,000
 	
 Priced
 IPODU
@@ -246,21 +336,6 @@ NASDAQ Capital
 10/09/2020
 	
 $500,000,000
-	
-Priced
-IH
-	
-iHuman Inc.
-	
-NYSE
-	
-12.00
-	
-7,000,000
-	
-10/09/2020
-	
-$84,000,000
 	
 Priced
 SPRB
@@ -353,21 +428,6 @@ NYSE
 $250,000,000
 	
 Priced
-PACEU
-	
-TPG Pace Tech Opportunities Corp.
-	
-NYSE
-	
-10.00
-	
-45,000,000
-	
-10/07/2020
-	
-$450,000,000
-	
-Priced
 MAACU
 	
 Montes Archimedes Acquisition Corp
@@ -383,19 +443,19 @@ NASDAQ Capital
 $400,000,000
 	
 Priced
-NGACU
+PACEU
 	
-NextGen Acquisition Corp
+TPG Pace Tech Opportunities Corp.
 	
-NASDAQ Capital
+NYSE
 	
 10.00
 	
-35,000,000
+45,000,000
 	
 10/07/2020
 	
-$350,000,000
+$450,000,000
 	
 Priced
 SQFT
@@ -411,6 +471,21 @@ NASDAQ Capital
 10/07/2020
 	
 $2,500,000
+	
+Priced
+NGACU
+	
+NextGen Acquisition Corp
+	
+NASDAQ Capital
+	
+10.00
+	
+35,000,000
+	
+10/07/2020
+	
+$350,000,000
 	
 Priced
 TPGYU
@@ -441,6 +516,36 @@ NYSE
 10/06/2020
 	
 $360,000,000
+	
+Priced
+IMNM
+	
+Immunome Inc.
+	
+NASDAQ Capital
+	
+12.00
+	
+3,250,000
+	
+10/02/2020
+	
+$39,000,000
+	
+Priced
+IACAU
+	
+ION Acquisition Corp 1 Ltd.
+	
+NYSE
+	
+10.00
+	
+22,500,000
+	
+10/02/2020
+	
+$225,000,000
 	
 Priced
 CCCC
@@ -518,19 +623,19 @@ NYSE
 $600,000,000
 	
 Priced
-IACAU
+ONCR
 	
-ION Acquisition Corp 1 Ltd.
+Oncorus, Inc.
 	
-NYSE
+NASDAQ Global
 	
-10.00
+15.00
 	
-22,500,000
+5,800,000
 	
 10/02/2020
 	
-$225,000,000
+$87,000,000
 	
 Priced
 VGACU
@@ -563,36 +668,6 @@ NYSE
 $500,000,000
 	
 Priced
-ONCR
-	
-Oncorus, Inc.
-	
-NASDAQ Global
-	
-15.00
-	
-5,800,000
-	
-10/02/2020
-	
-$87,000,000
-	
-Priced
-IMNM
-	
-Immunome Inc.
-	
-NASDAQ Capital
-	
-12.00
-	
-3,250,000
-	
-10/02/2020
-	
-$39,000,000
-	
-Priced
 SEAHU
 	
 Sports Entertainment Acquisition Corp.
@@ -606,81 +681,6 @@ NYSE
 10/02/2020
 	
 $400,000,000
-	
-Priced
-RCHGU
-	
-Recharge Acquisition Corp.
-	
-NASDAQ Capital
-	
-10.00
-	
-20,000,000
-	
-10/01/2020
-	
-$200,000,000
-	
-Priced
-IMPXU
-	
-AEA-Bridges Impact Corp.
-	
-NYSE
-	
-10.00
-	
-40,000,000
-	
-10/01/2020
-	
-$400,000,000
-	
-Priced
-THRY
-	
-Thryv Holdings, Inc.
-	
-NASDAQ Capital
-	
-10.17
-	
-26,726,538
-	
-10/01/2020
-	
-$271,808,891
-	
-Priced
-IGACU
-	
-IG Acquisition Corp.
-	
-NASDAQ Capital
-	
-10.00
-	
-30,000,000
-	
-10/01/2020
-	
-$300,000,000
-	
-Priced
-AGCUU
-	
-Altimeter Growth Corp.
-	
-NASDAQ Capital
-	
-10.00
-	
-45,000,000
-	
-10/01/2020
-	
-$450,000,000
 	
 Priced
 LUNG
@@ -713,6 +713,36 @@ NASDAQ Global
 $30,833,950
 	
 Priced
+THRY
+	
+Thryv Holdings, Inc.
+	
+NASDAQ Capital
+	
+10.17
+	
+26,726,538
+	
+10/01/2020
+	
+$271,808,891
+	
+Priced
+RCHGU
+	
+Recharge Acquisition Corp.
+	
+NASDAQ Capital
+	
+10.00
+	
+20,000,000
+	
+10/01/2020
+	
+$200,000,000
+	
+Priced
 AVO
 	
 Mission Produce, Inc.
@@ -726,6 +756,51 @@ NASDAQ Global Select
 10/01/2020
 	
 $96,000,000
+	
+Priced
+AGCUU
+	
+Altimeter Growth Corp.
+	
+NASDAQ Capital
+	
+10.00
+	
+45,000,000
+	
+10/01/2020
+	
+$450,000,000
+	
+Priced
+IGACU
+	
+IG Acquisition Corp.
+	
+NASDAQ Capital
+	
+10.00
+	
+30,000,000
+	
+10/01/2020
+	
+$300,000,000
+	
+Priced
+IMPXU
+	
+AEA-Bridges Impact Corp.
+	
+NYSE
+	
+10.00
+	
+40,000,000
+	
+10/01/2020
+	
+$400,000,000
 	
 Priced
 Upcoming
@@ -742,6 +817,19 @@ NASDAQ Global Select
 10/22/2020
 	
 $936,100,000.00
+JUPW
+	
+Jupiter Wellness, Inc.
+	
+NASDAQ Capital
+	
+7.50
+	
+1,000,000
+	
+10/21/2020
+	
+$8,625,000
 MSP
 	
 DATTO HOLDING CORP.
@@ -793,7 +881,20 @@ NASDAQ Global Select
 	
 10/16/2020
 	
-$184,595,700.00
+$184,595,700
+BTWNU
+	
+Bridgetown Holdings Ltd
+	
+NASDAQ Capital
+	
+10.00
+	
+55,000,000
+	
+10/16/2020
+	
+$632,500,000.00
 BHSEU
 	
 Bull Horn Holdings Corp.
@@ -833,19 +934,6 @@ NASDAQ Global
 10/16/2020
 	
 $184,000,000.00
-JUPW
-	
-Jupiter Wellness, Inc.
-	
-NASDAQ Capital
-	
-7.50
-	
-1,000,000
-	
-10/16/2020
-	
-$8,625,000
 EAR
 	
 Eargo, Inc.
@@ -863,69 +951,24 @@ PRAX
 	
 Praxis Precision Medicines, Inc.
 	
-NASDAQ Global
+NASDAQ Global Select
 	
-16.00-18.00
+17.00-18.00
 	
-7,400,000
+10,000,000
 	
 10/16/2020
 	
-$153,180,000
-TMTSU
-	
-Spartacus Acquisition Corp
-	
-NASDAQ Capital
-	
-10.00
-	
-25,000,000
-	
-10/15/2020
-	
-$287,500,000
-MOTNU
-	
-Motion Acquisition Corp.
-	
-NASDAQ Capital
-	
-10.00
-	
-13,000,000
-	
-10/15/2020
-	
-$149,500,000.00
-SPEL
-	
-Spinal Elements Holdings, Inc.
-	
-NASDAQ Global Select
-	
-13.00-15.00
-	
-7,700,000
-	
-10/15/2020
-	
-$132,825,000.00
-ARRY
-	
-Array Technologies, Inc.
-	
-NASDAQ Global
-	
-19.00-21.00
-	
-45,000,000
-	
-10/15/2020
-	
-$1,086,750,000
-LAST UPDATED: 10/15/2020* - Source: EDGAR® Online
+$207,000,000.00
+LAST UPDATED: 10/16/2020* - Source: EDGAR® Online
 Filings
+LNFAU
+	
+L&F Acquisition Corp.
+	
+10/15/2020
+	
+$230,000,000.00
 LSAQ
 	
 Lifesci Acquisition II Corp.
@@ -1155,7 +1198,7 @@ Rice Acquisition Corp.
 	
 10/06/2020
 	
-$230,000,000
+$230,000,000.00
 ARBGU
 	
 Aequi Acquisition Corp.
@@ -1232,6 +1275,7 @@ Lefteris Acquisition Corp.
 10/02/2020
 	
 $258,750,000.00
+ACICU
 	
 Atlas Crest Investment Corp.
 	
@@ -1306,7 +1350,7 @@ Guild Holdings Co
 	
 10/01/2020
 	
-$100,000,000
+$185,725,000.00
 GATO
 	
 Sunshine Silver Mining & Refining Corp
@@ -1356,53 +1400,53 @@ $400,000.00
 10/13/2020
 Upcoming Events
 
-    Dividends (84)
-    Earnings (232)
-    Economic (74)
+    Dividends (107)
+    Earnings (366)
+    Economic (75)
     IPO Calendar
     SPO Calendar
-    Stock Splits (13)
+    Stock Splits (12)
 
 Latest News
 
-    Roku Wins $41 Million Patent Infringement Case
-    12 mins ago
-    PRECIOUS-Gold dips as dollar holds firm, set for a weekly decline
-    14 mins ago
-    Australian Market Pares Losses
-    14 mins ago
-    Hong Kong Stock Market May Give Up 24,000-Point Level On Friday
-    19 mins ago
-    Tyson Foods Challenges Beyond Meat, Impossible Foods with Its Unchicken Sandwich
-    20 mins ago
+    Sailing-British, American challengers launch America's Cup yachts
+    1 hour ago
+    BlackRock's Fink 'pretty bearish' on emerging markets
+    1 hour ago
+    Companhia Siderúrgica Nacional (SID) Q3 2020 Earnings Call Transcript
+    1 hour ago
+    Schlumberger Limited (SLB) Q3 2020 Earnings Call Transcript
+    1 hour ago
+    Calfrac shareholders approve sweetened recapitalization bid
+    1 hour ago
 
 Other Calendars
 Dividends
-84 Events
+107 Events
 Find dividend paying stocks and pay dates.
 
-    Angel Oak Dynamic Financial Strategies Income Term Trust10/15/2020
-    Angel Oak Financial Strategies Income Term Trust10/15/2020
-    EMCOR Group, Inc.10/15/2020
+    Aberdeen Global Dynamic Dividend Fund10/16/2020
+    Aberdeen Global Premier Properties Fund10/16/2020
+    Aberdeen Income Credit Strategies Fund10/16/2020
 
 Earnings
-232 Events
+366 Events
 Track companies who are expected to release earnings reports.
 
-    Taiwan Semiconductor Manufacturing Company Ltd.10/15/2020
-    Honeywell International Inc.10/15/2020
-    Intuitive Surgical, Inc.10/15/2020
+    HDFC Bank Limited10/16/2020
+    The Bank Of New York Mellon Corporation 10/16/2020
+    V.F. Corporation10/16/2020
 
 Economic
-74 Events
+75 Events
 Stay up to date with financial events and indicators from all over the world.
 
-    Tertiary Industry Activity Index00:30
-    PPI02:30
-    PPI02:30
+    Car Registration02:00
+    Car Registration02:00
+    Italian Car Registration02:00
 
 Stock Splits
-13 Events
+12 Events
 Discover which stocks are splitting, the ration, and split ex-date.
 
     Turquoise Hill Resources Ltd.10/26/2020

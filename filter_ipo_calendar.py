@@ -1,9 +1,3 @@
-# after putting ctrl a into a text file, this program will be ran.
-# I am using firefox
-#
-#
-#
-
 import sys
 import re
 
@@ -30,127 +24,202 @@ def write_string(ipo_data=str):
         sys.stderr.write("[myScript] - Error: Could not write ipo_data\n")
         sys.exit(-1)
 
-# each is a table that is an array with many arrays containing dicts
-# priced
-# Upcoming
-# filings
-
 
 def make_priced_table(ipo_data) -> list:
     priced_table = []
 
     for i, word in enumerate(ipo_data):
         if word == 'Priced':
-            # begin priced section
             j = i
             while ipo_data[j] != 'Upcoming':
                 priced_row = {}
+                j += 1
                 if ipo_data[j] == 'Upcoming':
                     break
-                j += 1
                 priced_row['Symbol'] = ipo_data[j]
+                j += 1
                 if ipo_data[j] == 'Upcoming':
                     break
                 j += 1
                 if ipo_data[j] == 'Upcoming':
                     break
-
-                j += 1
                 priced_row['Company Name'] = ipo_data[j]
-                if ipo_data[j] == 'Upcoming':
-                    break
                 j += 1
                 if ipo_data[j] == 'Upcoming':
                     break
                 j += 1
+                if ipo_data[j] == 'Upcoming':
+                    break
                 priced_row['Exchange/Market'] = ipo_data[j]
-                if ipo_data[j] == 'Upcoming':
-                    break
                 j += 1
                 if ipo_data[j] == 'Upcoming':
                     break
                 j += 1
+                if ipo_data[j] == 'Upcoming':
+                    break
                 priced_row['Price'] = ipo_data[j]
-                if ipo_data[j] == 'Upcoming':
-                    break
                 j += 1
                 if ipo_data[j] == 'Upcoming':
                     break
                 j += 1
+                if ipo_data[j] == 'Upcoming':
+                    break
                 priced_row['Shares'] = ipo_data[j]
-                if ipo_data[j] == 'Upcoming':
-                    break
                 j += 1
                 if ipo_data[j] == 'Upcoming':
                     break
                 j += 1
+                if ipo_data[j] == 'Upcoming':
+                    break
                 priced_row['Date'] = ipo_data[j]
-                if ipo_data[j] == 'Upcoming':
-                    break
                 j += 1
                 if ipo_data[j] == 'Upcoming':
                     break
                 j += 1
+                if ipo_data[j] == 'Upcoming':
+                    break
                 priced_row['Offer Amount'] = ipo_data[j]
-                if ipo_data[j] == 'Upcoming':
-                    break
                 j += 1
                 if ipo_data[j] == 'Upcoming':
                     break
                 j += 1
+                if ipo_data[j] == 'Upcoming':
+                    break
 
                 priced_table.append(priced_row)
-                # if 'Upcoming' in ipo_data[j] or ipo_data[j+1] == 'Upcoming'
+            break
 
     return priced_table
 
 
 def make_upcoming_table(ipo_data) -> list:
     upcoming_table = []
-
     for i, word in enumerate(ipo_data):
         if word == 'Upcoming':
             j = i
             while not 'LAST' in ipo_data[j]:
                 upcoming_row = {}
-                if 'LAST' in ipo_data[j+1]:
+                j += 1
+                if 'LAST' in ipo_data[j]:
                     break
-                upcoming_row['Symbol'] = ipo_data[j+1]
-                upcoming_row['Company'] = ipo_data[j+2]
-                upcoming_row['Exchange/Market'] = ipo_data[j+3]
-                upcoming_row['Price'] = ipo_data[j+4]
-                upcoming_row['Shares'] = ipo_data[j+5]
-                upcoming_row['Expected IPO Date'] = ipo_data[j+6]
-                upcoming_row['Offer Amount'] = ipo_data[j+7]
-                upcoming_table.append(upcoming_row)
-                j += 7
+                upcoming_row['Symbol'] = ipo_data[j]
+                j += 1
+                if 'LAST' in ipo_data[j]:
+                    break
+                j += 1
+                if 'LAST' in ipo_data[j]:
+                    break
+                upcoming_row['Company'] = ipo_data[j]
+                j += 1
+                if 'LAST' in ipo_data[j]:
+                    break
+                j += 1
+                if 'LAST' in ipo_data[j]:
+                    break
+                upcoming_row['Exchange/Market'] = ipo_data[j]
+                j += 1
+                if 'LAST' in ipo_data[j]:
+                    break
+                j += 1
+                if 'LAST' in ipo_data[j]:
+                    break
+                upcoming_row['Price'] = ipo_data[j]
+                j += 1
+                if 'LAST' in ipo_data[j]:
+                    break
+                j += 1
+                if 'LAST' in ipo_data[j]:
+                    break
+                upcoming_row['Shares'] = ipo_data[j]
+                j += 1
+                if 'LAST' in ipo_data[j]:
+                    break
+                j += 1
+                if 'LAST' in ipo_data[j]:
+                    break
+                upcoming_row['Expected IPO Date'] = ipo_data[j]
+                j += 1
+                if 'LAST' in ipo_data[j]:
+                    break
+                j += 1
+                if 'LAST' in ipo_data[j]:
+                    break
+                upcoming_row['Offer Amount'] = ipo_data[j]
 
-        return upcoming_table
+                upcoming_table.append(upcoming_row)
+            break
+
+    return upcoming_table
 
 
 def make_filings_table(ipo_data) -> list:
     filings_table = []
-
-    j = 0
     for i, word in enumerate(ipo_data):
         if word == 'Filings':
-            j = i + 1
-            while not 'Upcoming' in ipo_data[j]:
-                filing_row = {}
-                while not '$' in ipo_data[j]:
-                    if ipo_data[j].isupper() is True:
-                        filing_row['Symbol'] = ipo_data[j]
-                    elif ipo_data[j+1].count("/") == 2:
-                        filing_row['Company Name'] = ipo_data[j]
-                    elif ipo_data[j].count("/") == 2:
-                        filing_row['Date Filed'] = ipo_data[j]
-
-                    j += 1
-                filing_row['Offer Amount'] = ipo_data[j]
-                filings_table.append(filing_row)
+            j = i
+            while not 'Withdrawn' in ipo_data[j]:
+                filings_row = {}
                 j += 1
+                if 'Ltd.' in ipo_data[j] or 'ltd' in ipo_data[j] or 'Corp' in ipo_data[j] or 'Co' in ipo_data[j] or 'Inc' in ipo_data[j] or 'CORP' in ipo_data[j] or 'INC' in ipo_data[j]:
+                    filings_row['Company Name'] = ipo_data[j]
+                    filings_row['Date Filed'] = ipo_data[j+2]
+                    filings_row['Offer Amount'] = ipo_data[j+4]
+                # due to possibility of no symbol, the below is not possible.
+                # if 'Withdrawn' in ipo_data[j]:
+                #     break
+                # filings_row['Symbol'] = ipo_data[j]
+                # j += 1
+                # if 'Withdrawn' in ipo_data[j]:
+                #     break
+                # j += 1
+                # if 'Withdrawn' in ipo_data[j]:
+                #     break
+                # filings_row['Company Name'] = ipo_data[j]
+                # j += 1
+                # if 'Withdrawn' in ipo_data[j]:
+                #     break
+                # j += 1
+                # if 'Withdrawn' in ipo_data[j]:
+                #     break
+                # filings_row['Date Filed'] = ipo_data[j]
+                # j += 1
+                # if 'Withdrawn' in ipo_data[j]:
+                #     break
+                # j += 1
+                # if 'Withdrawn' in ipo_data[j]:
+                #     break
+                # filings_row['Offer Amount'] = ipo_data[j]
+                # j += 1
+                # if 'Withdrawn' in ipo_data[j]:
+                #     break
+                    filings_table.append(filings_row)
+            break
 
-        return filings_table
+    return filings_table
+
+
+def make_withdrawn_table(ipo_data) -> list:
+    withdrawn_table = []
+    for i, word in enumerate(ipo_data):
+        if word == 'Withdrawn':
+            j = i
+            while not 'Upcoming' in ipo_data[j]:
+                withdrawn_row = {}
+                j += 1
+                if 'Upcoming' in ipo_data[j]:
+                    break
+                if 'Ltd' in ipo_data[j] or 'ltd' in ipo_data[j] or 'Corp' in ipo_data[j] or 'Co' in ipo_data[j] or 'Inc' in ipo_data[j] or 'CORP' in ipo_data[j] or 'INC' in ipo_data[j]:
+                    withdrawn_row['Company Name'] = ipo_data[j]
+
+                withdrawn_table.append(withdrawn_row)
+
+    # cleanup empty objects inside
+    cleaned_withdrawn_table = []
+    for row in withdrawn_table:
+        if row:
+            cleaned_withdrawn_table.append(row)
+
+    return cleaned_withdrawn_table
 
 
 def transform_string(ipo_data=str) -> str:
@@ -158,14 +227,18 @@ def transform_string(ipo_data=str) -> str:
     # ipo_data = ipo_data.split([sep=None[, maxsplit]])
     ipo_data = ipo_data.split('\n')  # split by all whitespace
 
-    print(ipo_data)
+    # print(ipo_data)
 
     # these tables are lists of dicts
     priced_table = make_priced_table(ipo_data)
-    # upcoming_table = make_upcoming_table(ipo_data)
-    # filings_table = make_filings_table(ipo_data)
+    upcoming_table = make_upcoming_table(ipo_data)
+    filings_table = make_filings_table(ipo_data)
+    withdrawn_table = make_withdrawn_table(ipo_data)
 
-    print(priced_table)
+    print('priced table: ', priced_table)
+    print('\n upcoming table: ', upcoming_table)
+    print('\n filings table: ', filings_table)
+    print('\n withdrawn table: ', withdrawn_table)
 
     # for row in priced_table:
     #     for k, v in row.items():
