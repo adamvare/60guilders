@@ -15,9 +15,9 @@ def get_string() -> str:
         sys.exit(-1)
 
 
-def write_string(ipo_data=str):
+def write_string(path=str, ipo_data=str):
     try:
-        with open('./txt_files/output.txt', 'w') as the_file:
+        with open(path, 'w') as the_file:
             the_file.write(ipo_data)
 
     except IOError:
@@ -220,30 +220,3 @@ def make_withdrawn_table(ipo_data) -> list:
             cleaned_withdrawn_table.append(row)
 
     return cleaned_withdrawn_table
-
-
-def transform_string(ipo_data=str) -> str:
-    # ipo_data = re.sub(r"[\n]*", "", ipo_data)
-    # ipo_data = ipo_data.split([sep=None[, maxsplit]])
-    ipo_data = ipo_data.split('\n')  # split by all whitespace
-
-    # print(ipo_data)
-
-    # these tables are lists of dicts
-    priced_table = make_priced_table(ipo_data)
-    upcoming_table = make_upcoming_table(ipo_data)
-    filings_table = make_filings_table(ipo_data)
-    withdrawn_table = make_withdrawn_table(ipo_data)
-
-    print('priced table: ', priced_table)
-    print('\n upcoming table: ', upcoming_table)
-    print('\n filings table: ', filings_table)
-    print('\n withdrawn table: ', withdrawn_table)
-
-    # for row in priced_table:
-    #     for k, v in row.items():
-    #         print(k, '\t', v)
-
-    # format structures into the string I want (maybe even into the html I want for ultimate email). (use wikipedia api too)
-
-    return "hey"
